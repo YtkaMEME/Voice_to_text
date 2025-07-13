@@ -1,0 +1,65 @@
+# ⬛ Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# 🐍 Виртуальное окружение
+venv/
+.venv/
+env/
+ENV/
+
+# 🔐 Конфигурация
+*.env
+.env.*
+config.py
+TOKEN.py
+credentials.json
+
+# 📁 Логи и временные файлы
+*.log
+*.sqlite3
+*.db
+*.db-journal
+*.pid
+downloads/
+tmp/
+cache/
+*.DS_Store
+
+# 🔧 IDE-шные файлы
+.vscode/
+.idea/
+*.code-workspace
+
+# 📦 Сборки, пакеты, wheel
+*.whl
+*.tar.gz
+
+# 📜 Документация (если Markdown генерится)
+*.md.html
+
+# 🧪 Тесты
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+
+# 📄 Системные
+Thumbs.db
+.DS_Store
+ehthumbs.db
+desktop.ini
